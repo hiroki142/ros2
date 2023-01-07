@@ -4,7 +4,7 @@ ROS2 ノード
 talkerで0.5秒ごとに１づつカウントアップされる数値を
 listenerに送信し端末に出力するノード
 
-#実行方法
+# 実行方法
 次の操作はROS2ワークスペースのトップディレクトリで行う
 ```
 $ colcon build
@@ -13,20 +13,20 @@ $ . install/local_setup.bash
 $ ros2 launch mypkg talk_listen.launch.py
 ```
 
-#必要環境
+# 必要環境
 * ROS2
 * Python 3
 
-#テスト済み動作環境
+# テスト済み動作環境
 * ROS2 Humble
 * Ubuntu 22.04
 * Python 3.10.6
 
-#ブランチ
+# ブランチ
 * メインブランチ
   * master
 
-#ライセンス
+# ライセンス
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再配布及び使用が許可されます。
   * [LICENCE](https://github.com/hiroki142/mypkg/blob/master/LICENSE)
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
