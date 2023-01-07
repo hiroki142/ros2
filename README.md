@@ -1,6 +1,6 @@
 ![test](https://github.com/hiroki142/mypkg/actions/workflows/test.yml/badge.svg)
 # 説明
-ROS2 ノード
+ROS2 ノード  
 talkerで0.5秒ごとに１ずつカウントアップされる数値を
 listenerに送信し端末に出力するノード
 
