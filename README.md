@@ -1,15 +1,15 @@
 ![test](https://github.com/hiroki142/mypkg/actions/workflows/test.yml/badge.svg)
 # 説明
 ROS2 パッケージ  
-## ノード
-* talker
-  * パブリッシャーを持ち、0.5秒ごとにカウントアップされる数値を送信するノード
-* listener
-  * サブスクライバーを持ち、talkerで送信されたメッセージを受け取り端末に表示するノード
+talker - listener 間でトピック通信を行う
 
-## トピック
-* countup
-  * この名前のトピックを通してtalkerとlistenerは通信している。  メッセージの型はInt16
+* talker
+  * 0.5秒ごとにカウントアップされる数値を送信するノード
+* listener
+  * talkerで送信されたメッセージを受け取り端末に表示するノード
+
+* /countup
+  * talkerからlistenerへメッセージを送信するためのトピック。 メッセージ型はInt16
 
 # 実行方法
 次の操作はROS2ワークスペースのトップディレクトリで行う
