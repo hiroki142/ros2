@@ -3,9 +3,9 @@
 ROS2 パッケージ  
 talker - listener 間でトピック通信を行う
 
-* talker
+* talker.py
   * 0.5秒ごとにカウントアップされる数値を送信するノード
-* listener
+* listener.py
   * talkerで送信されたメッセージを受け取り端末に表示するノード
 * talk_listen.launch.py
   * talkerとlistenerを同時に立ち上げるlaunchファイル
